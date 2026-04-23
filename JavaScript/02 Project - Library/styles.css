@@ -1,0 +1,51 @@
+:root {
+  background-color: lightgray;
+}
+
+table,
+th,
+td {
+  border: 1px, solid, black;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  background-color: lightblue;
+}
+
+#table-books {
+  width: 600px;
+}
+
+#row-title {
+  width: auto;
+}
+
+#row-author {
+  width: auto;
+}
+
+#row-pages {
+  width: 70px;
+}
+
+#row-read {
+  width: 100px;
+}
+
+#row-delete {
+  width: 1px;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px;
+  row-gap: 10px;
+}
